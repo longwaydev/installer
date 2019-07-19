@@ -1,0 +1,17 @@
+{
+	"items": [
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hdfs/config?message=Updated%20service%20and%20role%20type%20configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "dfs_replication",
+						"value": count
+					}
+				]
+			},
+			"contentType": "application/json"
+		}
+	]
+}

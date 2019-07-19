@@ -1,0 +1,101 @@
+{
+  "items" : [ {
+    "product" : "SQOOP_TERADATA_CONNECTOR",
+    "version" : "1.7c5",
+    "stage" : "AVAILABLE_REMOTELY",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "SQOOP_NETEZZA_CONNECTOR",
+    "version" : "1.5.1c5",
+    "stage" : "AVAILABLE_REMOTELY",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "ACCUMULO",
+    "version" : "1.7.2-5.5.0.ACCUMULO5.5.0.p0.8",
+    "stage" : "AVAILABLE_REMOTELY",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "SPARK",
+    "version" : "0.9.0-1.cdh4.6.0.p0.98",
+    "stage" : "UNAVAILABLE",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "SPLICEMACHINE",
+    "version" : "2.7.0.1833.cdh5.14.0.p0.138",
+    "stage" : "ACTIVATED",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "SPARK2",
+    "version" : "2.3.0.cloudera3-1.cdh5.13.3.p0.458809",
+    "stage" : "ACTIVATED",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "CDH",
+    "version" : "4.7.1-1.cdh4.7.1.p0.47",
+    "stage" : "UNAVAILABLE",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "IMPALA",
+    "version" : "2.1.0-1.impala2.0.0.p0.1995",
+    "stage" : "UNAVAILABLE",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "CDH",
+    "version" : "5.14.0-1.cdh5.14.0.p0.24",
+    "stage" : "ACTIVATED",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "CDH",
+    "version" : "5.14.4-1.cdh5.14.4.p0.3",
+    "stage" : "AVAILABLE_REMOTELY",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "SOLR",
+    "version" : "1.3.0-1.cdh4.5.0.p0.9",
+    "stage" : "UNAVAILABLE",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "KAFKA",
+    "version" : "4.1.0-1.4.1.0.p0.4",
+    "stage" : "AVAILABLE_REMOTELY",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "ACCUMULO",
+    "version" : "1.4.4-1.cdh4.5.0.p0.65",
+    "stage" : "UNAVAILABLE",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  }, {
+    "product" : "KUDU",
+    "version" : "1.4.0-1.cdh5.12.2.p0.8",
+    "stage" : "AVAILABLE_REMOTELY",
+    "clusterRef" : {
+      "clusterName" : "cluster"
+    }
+  } ]
+}

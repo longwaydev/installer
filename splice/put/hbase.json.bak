@@ -1,0 +1,394 @@
+{
+  "items": [
+    {
+      "method": "PUT",
+      "url": "/api/v8/clusters/cluster/services/hbase/config?message=Updated service and role type configurations.",
+      "body": {
+        "items": [
+          {
+            "name": "hbase_client_scanner_caching",
+            "value": 100
+          }
+        ]
+      },
+      "contentType": "application/json"
+    },
+ 		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_graceful_stop_timeout",
+						"value": 600
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+ 		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_service_config_safety_valve",
+						"value": "<property><name>dfs.client.read.shortcircuit.buffer.size</name><value>131072</value></property><property><name>hbase.balancer.period</name><value>60000</value></property><property><name>hbase.client.ipc.pool.size</name><value>10</value></property><property><name>hbase.client.max.perregion.tasks</name><value>100</value></property><property><name>hbase.coprocessor.regionserver.classes</name><value>com.splicemachine.hbase.RegionServerLifecycleObserver</value></property><property><name>hbase.hstore.defaultengine.compactionpolicy.class</name><value>com.splicemachine.compactions.SpliceDefaultCompactionPolicy</value></property><property><name>hbase.hstore.defaultengine.compactor.class</name><value>com.splicemachine.compactions.SpliceDefaultCompactor</value></property><property><name>hbase.htable.threads.max</name><value>96</value></property><property><name>hbase.ipc.warn.response.size</name><value>-1</value></property><property><name>hbase.ipc.warn.response.time</name><value>-1</value></property><property><name>hbase.master.loadbalance.bytable</name><value>true</value></property><property><name>hbase.master.balancer.stochastic.regionCountCost</name><value>1500</value></property><property><name>hbase.mvcc.impl</name><value>org.apache.hadoop.hbase.regionserver.SIMultiVersionConsistencyControl</value></property><property><name>hbase.regions.slop</name><value>0</value></property><property><name>hbase.regionserver.global.memstore.size.lower.limit</name><value>0.9</value></property><property><name>hbase.regionserver.global.memstore.size</name><value>0.25</value></property><property><name>hbase.regionserver.maxlogs</name><value>48</value></property><property><name>hbase.regionserver.wal.enablecompression</name><value>true</value></property><property><name>hbase.rowlock.wait.duration</name><value>0</value></property><property><name>hbase.status.multicast.port</name><value>16100</value></property><property><name>hbase.wal.disruptor.batch</name><value>true</value></property><property><name>hbase.wal.provider</name><value>multiwal</value></property><property><name>hbase.wal.regiongrouping.numgroups</name><value>16</value></property><property><name>hbase.zookeeper.property.tickTime</name><value>6000</value></property><property><name>hfile.block.bloom.cacheonwrite</name><value>true</value></property><property><name>io.storefile.bloom.error.rate</name><value>0.005</value></property><property><name>splice.client.numConnections</name><value>1</value></property><property><name>splice.client.write.maxDependentWrites</name><value>60000</value></property><property><name>splice.client.write.maxIndependentWrites</name><value>60000</value></property><property><name>splice.compression</name><value>snappy</value></property><property><name>splice.marshal.kryoPoolSize</name><value>1100</value></property><property><name>splice.olap_server.clientWaitTime</name><value>900000</value></property><property><name>splice.ring.bufferSize</name><value>131072</value></property><property><name>splice.splitBlockSize</name><value>67108864</value></property><property><name>splice.timestamp_server.clientWaitTime</name><value>120000</value></property><property><name>splice.txn.activeTxns.cacheSize</name><value>10240</value></property><property><name>splice.txn.completedTxns.concurrency</name><value>128</value></property><property><name>splice.txn.concurrencyLevel</name><value>4096</value></property><property><name>hbase.hstore.compaction.min.size</name><value>136314880</value></property><property><name>hbase.hstore.compaction.min</name><value>3</value></property><property><name>hbase.regionserver.thread.compaction.large</name><value>4</value></property><property><name>splice.authentication.native.algorithm</name><value>SHA-512</value></property><property><name>splice.authentication</name><value>NATIVE</value></property><property><name>splice.olap_server.memory</name><value>8196</value></property>   <property><name>splice.olap.log4j.configuration</name><value>file:/opt/cloudera/parcels/SPLICEMACHINE/conf/olap-log4j.properties</value></property>"
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_service_splitlog_manager_timeout",
+						"value": 180000
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_client_retries_number",
+						"value": 40
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_rpc_timeout",
+						"value": 1200000
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_client_pause",
+						"value": 90
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "zookeeper_session_timeout",
+						"value": 120000
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-MASTER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_master_info_port",
+						"value": 16010
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-MASTER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_master_port",
+						"value": 16000
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-GATEWAY-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_client_config_safety_valve",
+						"value": "<property><name>hbase.client.ipc.pool.size</name><value>10</value></property><property><name>hbase.zookeeper.property.tickTime</name><value>6000</value></property><property><name>hfile.block.cache.size</name><value>.1</value></property><property><name>splice.compression</name><value>snappy</value></property><property><name>splice.txn.activeCacheSize</name><value>10240</value></property>"
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+	   {
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-MASTER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_master_java_opts",
+						"value": "-XX:MaxPermSize=512M -XX:+HeapDumpOnOutOfMemoryError -XX:MaxDirectMemorySize=2g -XX:+AlwaysPreTouch -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=70 -XX:+CMSParallelRemarkEnabled -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=10101 -Dsplice.spark.enabled=true -Dsplice.spark.app.name=SpliceMachine -Dsplice.spark.master=yarn-client -Dsplice.spark.logConf=true -Dsplice.spark.yarn.maxAppAttempts=1 -Dsplice.spark.driver.maxResultSize=1g -Dsplice.spark.driver.cores=2 -Dsplice.spark.yarn.am.memory=1g -Dsplice.spark.dynamicAllocation.enabled=true -Dsplice.spark.dynamicAllocation.executorIdleTimeout=120 -Dsplice.spark.dynamicAllocation.cachedExecutorIdleTimeout=120 -Dsplice.spark.dynamicAllocation.minExecutors=0 -Dsplice.spark.dynamicAllocation.maxExecutors=12 -Dsplice.spark.io.compression.lz4.blockSize=32k -Dsplice.spark.kryo.referenceTracking=false -Dsplice.spark.kryo.registrator=com.splicemachine.derby.impl.SpliceSparkKryoRegistrator -Dsplice.spark.kryoserializer.buffer.max=512m -Dsplice.spark.kryoserializer.buffer=4m -Dsplice.spark.locality.wait=100 -Dsplice.spark.memory.fraction=0.5 -Dsplice.spark.scheduler.mode=FAIR -Dsplice.spark.serializer=org.apache.spark.serializer.KryoSerializer -Dsplice.spark.shuffle.compress=false -Dsplice.spark.shuffle.file.buffer=128k -Dsplice.spark.shuffle.service.enabled=true  -Dsplice.spark.yarn.am.extraLibraryPath=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -Dsplice.spark.yarn.am.waitTime=10s -Dsplice.spark.yarn.executor.memoryOverhead=2048 -Dsplice.spark.driver.extraJavaOptions=-Dlog4j.configuration=file:/etc/spark/conf/log4j.properties -Dsplice.spark.driver.extraLibraryPath=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -Dsplice.spark.driver.extraClassPath=/opt/cloudera/parcels/CDH/lib/hbase/conf:/opt/cloudera/parcels/CDH/jars/htrace-core-3.1.0-incubating.jar -Dsplice.spark.executor.extraLibraryPath=/opt/cloudera/parcels/CDH/lib/hbase/conf:/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -Dsplice.spark.executor.extraClassPath=/opt/cloudera/parcels/CDH/lib/hbase/conf:/opt/cloudera/parcels/SPLICEMACHINE/lib/*:/opt/cloudera/parcels/SPARK2/lib/spark2/jars/*:/opt/cloudera/parcels/CDH/lib/hbase/lib/* -Dsplice.spark.executor.extraLibraryPath=/opt/cloudera/parcels/CDH/lib/hadoop/lib/native -Dsplice.spark.ui.retainedJobs=100 -Dsplice.spark.ui.retainedStages=100 -Dsplice.spark.worker.ui.retainedExecutors=100 -Dsplice.spark.worker.ui.retainedDrivers=100 -Dsplice.spark.streaming.ui.retainedBatches=100 -Dsplice.spark.executor.cores=4 -Dsplice.spark.executor.memory=8g -Dspark.compaction.reserved.slots=4  -Dsplice.spark.local.dir=/tmp -Dsplice.spark.yarn.jars=/opt/cloudera/parcels/SPARK2/lib/spark2/jars/*"
+					}
+				]
+			},
+			"contentType": "application/json"
+	   },
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-MASTER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_coprocessor_master_classes",
+						"value": "com.splicemachine.hbase.SpliceMasterObserver"
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-MASTER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_master_java_heapsize",
+						"value": 5368709120
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_hstore_compactionThreshold",
+						"value": 5
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_regionserver_info_port",
+						"value": 16030
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_hstore_blockingStoreFiles",
+						"value": 20
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_regionserver_java_opts",
+						"value": "-XX:+HeapDumpOnOutOfMemoryError -XX:MaxDirectMemorySize=2g -XX:MaxPermSize=512M -XX:+AlwaysPreTouch -XX:+UseG1GC -XX:MaxNewSize=4g -XX:InitiatingHeapOccupancyPercent=60 -XX:ParallelGCThreads=24 -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=5000 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=10102"
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_hregion_memstore_block_multiplier",
+						"value": 4
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_hstore_compaction_max",
+						"value": 7
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_regionserver_lease_period",
+						"value": 1200000
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hfile_block_cache_size",
+						"value": 0.25
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_regionserver_java_heapsize",
+						"value": 25769803776
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+	  {
+		  "method": "PUT",
+		  "url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+		  "body": {
+			  "items": [
+				  {
+					  "name": "hbase_regionserver_handler_count",
+					  "value": 200
+				  }
+			  ]
+		  },
+		  "contentType": "application/json"
+	  },
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_regionserver_metahandler_count",
+						"value": 200
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_coprocessor_region_classes",
+						"value": "com.splicemachine.hbase.MemstoreAwareObserver com.splicemachine.derby.hbase.SpliceIndexObserver com.splicemachine.derby.hbase.SpliceIndexEndpoint com.splicemachine.hbase.RegionSizeEndpoint com.splicemachine.si.data.hbase.coprocessor.TxnLifecycleEndpoint com.splicemachine.si.data.hbase.coprocessor.SIObserver com.splicemachine.hbase.BackupEndpointObserver"
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_regionserver_maxlogs",
+						"value": 48
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_regionserver_thread_compaction_small",
+						"value": 4
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+			{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_regionserver_port",
+						"value": 16020
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-REGIONSERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "hbase_regionserver_wal_pipelines",
+						"value": 16
+					}
+				]
+			},
+			"contentType": "application/json"
+		}
+  ]
+}

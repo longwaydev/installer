@@ -1,0 +1,30 @@
+{
+	"items": [
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/zookeeper/roleConfigGroups/zookeeper-SERVER-BASE/config?message=Updated service and role type configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "maxClientCnxns",
+						"value": 0
+					}
+				]
+			},
+			"contentType": "application/json"
+		},
+		{
+			"method": "PUT",
+			"url": "/api/v8/clusters/cluster/services/zookeeper/roleConfigGroups/zookeeper-SERVER-BASE/config?message=Updated%20service%20and%20role%20type%20configurations.",
+			"body": {
+				"items": [
+					{
+						"name": "maxSessionTimeout",
+						"value": 120000
+					}
+				]
+			},
+			"contentType": "application/json"
+		}
+	]
+}

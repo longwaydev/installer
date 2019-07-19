@@ -1,0 +1,5 @@
+# exclue all files in packages
+packages/*
+**/*.swp
+**/*.swn
+**/*~

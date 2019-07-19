@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "method": "PUT",
+      "url": "/api/v8/cm/service/roleConfigGroups/mgmt-ALERTPUBLISHER-BASE/config?message=Updated%20service%20and%20role%20type%20configurations.",
+      "body": {
+        "items": [
+          {
+            "name": "alertpublisher_internalapi_port",
+            "value": 10110
+          }
+        ]
+      },
+      "contentType": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "method": "PUT",
+      "url": "/api/v8/clusters/cluster/services/hbase/roleConfigGroups/hbase-MASTER-BASE/config?message=Updated%20service%20and%20role%20type%20configurations.",
+      "body": {
+        "items": [
+          {
+            "name": "hbase_master_java_opts",
+            "value": "-Dsplice.spark.hadoop.fs.hdfs.impl.disable.cache=true"
+
+          }
+        ]
+      },
+      "contentType": "application/json"
+    }
+  ]
+}

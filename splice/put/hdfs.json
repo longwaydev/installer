@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "method": "PUT",
+      "url": "/api/v8/clusters/cluster/services/hdfs/roleConfigGroups/hdfs-DATANODE-BASE/config?message=Updated service and role type configurations.",
+      "body": {
+        "items": [
+          {
+            "name": "dfs_datanode_max_xcievers",
+            "value": 8192
+          }
+        ]
+      },
+      "contentType": "application/json"
+    },
+    {
+      "method": "PUT",
+      "url": "/api/v8/clusters/cluster/services/hdfs/roleConfigGroups/hdfs-DATANODE-BASE/config?message=Updated service and role type configurations.",
+      "body": {
+        "items": [
+          {
+            "name": "dfs_datanode_handler_count",
+            "value": 20
+          }
+        ]
+      },
+      "contentType": "application/json"
+    },
+    {
+      "method": "PUT",
+      "url": "/api/v8/clusters/cluster/services/hdfs/roleConfigGroups/hdfs-NAMENODE-BASE/config?message=Updated service and role type configurations.",
+      "body": {
+        "items": [
+          {
+            "name": "dfs_namenode_handler_count",
+            "value": 64
+          }
+        ]
+      },
+      "contentType": "application/json"
+    },
+    {
+      "method": "PUT",
+      "url": "/api/v8/clusters/cluster/services/hdfs/roleConfigGroups/hdfs-NAMENODE-BASE/config?message=Updated service and role type configurations.",
+      "body": {
+        "items": [
+          {
+            "name": "dfs_namenode_service_handler_count",
+            "value": 60
+          }
+        ]
+      },
+      "contentType": "application/json"
+    },
+    {
+      "method": "PUT",
+      "url": "/api/v8/clusters/cluster/services/hdfs/config?message=Updated service and role type configurations.",
+      "body": {
+        "items": [
+          {
+            "name": "dfs_replication",
+            "value": 3
+          }
+        ]
+      },
+      "contentType": "application/json"
+    },
+    {
+      "method": "PUT",
+      "url": "/api/v8/clusters/cluster/services/hdfs/roleConfigGroups/hdfs-DATANODE-BASE/config?message=Updated service and role type configurations.",
+      "body": {
+        "items": [
+          {
+            "name": "datanode_java_heapsize",
+            "value": 2147483648
+          }
+        ]
+      },
+      "contentType": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+     },
+      "serviceUrl": "http://standalone:7180/cmf/serviceRedirect/oozie",
+      "roleInstancesUrl": "http://standalone:7180/cmf/serviceRedirect/oozie/instances",
+      "serviceState": "STOPPED",
+      "healthSummary": "DISABLED",
+      "healthChecks": [
+        {
+          "name": "OOZIE_OOZIE_SERVERS_HEALTHY",
+          "summary": "DISABLED",
+          "suppressed": false
+        }

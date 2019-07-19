@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "method": "PUT",
+      "url": "/api/v8/cm/allHosts/config?message=Updated%20all%20hosts%20configurations.",
+      "body": {
+        "items": [
+          {
+            "name": "java_home",
+            "value": "/usr/java/default"
+          }
+        ]
+      },
+      "contentType": "application/json"
+    }
+  ]
+}

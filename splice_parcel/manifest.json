@@ -1,0 +1,96 @@
+{
+    "parcels": [
+        {
+            "hash": "e121a3a842eb2ea61ce7a8fdda042f2290097e26",
+            "depends": "CDH (== 5.14.0)",
+            "parcelName": "SPLICEMACHINE-2.7.0.1833.cdh5.14.0.p0.138-wheezy.parcel",
+            "components": [
+                {
+                    "pkg_version": "2.7.0.1833+cdh5.14.0+546c743d82",
+                    "version": "2.7.0.1833.cdh5.14.0",
+                    "name": "splicemachine",
+                    "pkg_release": "1.cdh5.14.0.p0.138"
+                }
+            ]
+        },
+        {
+            "hash": "e121a3a842eb2ea61ce7a8fdda042f2290097e26",
+            "depends": "CDH (== 5.14.0)",
+            "parcelName": "SPLICEMACHINE-2.7.0.1833.cdh5.14.0.p0.138-sles11.parcel",
+            "components": [
+                {
+                    "pkg_version": "2.7.0.1833+cdh5.14.0+546c743d82",
+                    "version": "2.7.0.1833.cdh5.14.0",
+                    "name": "splicemachine",
+                    "pkg_release": "1.cdh5.14.0.p0.138"
+                }
+            ]
+        },
+        {
+            "hash": "e121a3a842eb2ea61ce7a8fdda042f2290097e26",
+            "depends": "CDH (== 5.14.0)",
+            "parcelName": "SPLICEMACHINE-2.7.0.1833.cdh5.14.0.p0.138-el7.parcel",
+            "components": [
+                {
+                    "pkg_version": "2.7.0.1833+cdh5.14.0+546c743d82",
+                    "version": "2.7.0.1833.cdh5.14.0",
+                    "name": "splicemachine",
+                    "pkg_release": "1.cdh5.14.0.p0.138"
+                }
+            ]
+        },
+        {
+            "hash": "e121a3a842eb2ea61ce7a8fdda042f2290097e26",
+            "depends": "CDH (== 5.14.0)",
+            "parcelName": "SPLICEMACHINE-2.7.0.1833.cdh5.14.0.p0.138-precise.parcel",
+            "components": [
+                {
+                    "pkg_version": "2.7.0.1833+cdh5.14.0+546c743d82",
+                    "version": "2.7.0.1833.cdh5.14.0",
+                    "name": "splicemachine",
+                    "pkg_release": "1.cdh5.14.0.p0.138"
+                }
+            ]
+        },
+        {
+            "hash": "e121a3a842eb2ea61ce7a8fdda042f2290097e26",
+            "depends": "CDH (== 5.14.0)",
+            "parcelName": "SPLICEMACHINE-2.7.0.1833.cdh5.14.0.p0.138-el6.parcel",
+            "components": [
+                {
+                    "pkg_version": "2.7.0.1833+cdh5.14.0+546c743d82",
+                    "version": "2.7.0.1833.cdh5.14.0",
+                    "name": "splicemachine",
+                    "pkg_release": "1.cdh5.14.0.p0.138"
+                }
+            ]
+        },
+        {
+            "hash": "e121a3a842eb2ea61ce7a8fdda042f2290097e26",
+            "depends": "CDH (== 5.14.0)",
+            "parcelName": "SPLICEMACHINE-2.7.0.1833.cdh5.14.0.p0.138-trusty.parcel",
+            "components": [
+                {
+                    "pkg_version": "2.7.0.1833+cdh5.14.0+546c743d82",
+                    "version": "2.7.0.1833.cdh5.14.0",
+                    "name": "splicemachine",
+                    "pkg_release": "1.cdh5.14.0.p0.138"
+                }
+            ]
+        },
+        {
+            "hash": "a5c49ef47712b3298f0496684d8517fdd865ec99",
+            "depends": "CDH (== 5.14.0)",
+            "parcelName": "SPLICEMACHINE-2.7.0.1833.cdh5.14.0.p0.138-xenial.parcel",
+            "components": [
+                {
+                    "pkg_version": "2.7.0.1833+cdh5.14.0+546c743d82",
+                    "version": "2.7.0.1833.cdh5.14.0",
+                    "name": "splicemachine",
+                    "pkg_release": "1.cdh5.14.0.p0.138"
+                }
+            ]
+        }
+    ],
+    "lastUpdated": 1534532302611
+}
